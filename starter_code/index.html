@@ -13,21 +13,12 @@
 
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
-    <title>Where work happens | Slack</title>
+    <title>Where work happens | Slack</title>    
   </head>
 
   <body>
-    <nav>
+    <nav class="nav-bar">
       <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
-        <li>Why Slack?</li>
-        <li>Pricing</li>
-        <li>About Us</li>
-        <li>Your Workspaces</li>
-      </ul>
-    </nav>
-    <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
       <h1>Where Work Happens</h1>
       <p>
         When your team needs to kick off a project, hire a new employee, deploy
@@ -35,17 +26,35 @@
         an A/B test, plan your next office opening, and more, Slack has you
         covered.
       </p>
-      <button type="button" name="button">GET STARTED</button>
+      <div class="email-button">      
+      <input type="email" name="email" placeholder="email address">
+      <button class="btngetstarted" type="button" name="button">GET STARTED</button>
+    </div>
       <p>Already using Slack? <a href="#">Sign in</a></p>
+      <!-- <ul>
+        <li>Why Slack?</li>
+        <li>Pricing</li>
+        <li>About Us</li>
+        <li>Your Workspaces</li>
+      </ul> -->
+    </nav>
+
+    <header class="header">
+      <img src="./images/home_talking.png" alt="home_work_happening" />
+      
+     
+      
+      
     </header>
-    <main>
+    <main class="main">
       <div>
         <h2>You're in good company</h2>
         <p>
           Millions of people around the world have already made Slack the place
           where their work happens.
         </p>
-        <button>DISCOVER WHY</button>
+        <button class="btndiscover">DISCOVER WHY</button>
+        <div class="logos">
         <img src="./images/airbnb-logo.png" alt="" />
         <img src="./images/capital-one-logo.png" alt="" />
         <img src="./images/harvard-logo.png" alt="" />
@@ -53,17 +62,20 @@
         <img src="./images/oracle-logo.png" alt="" />
         <img src="./images/ticketmaster-logo.png" alt="" />
       </div>
-      <div>
-        <p>Try it for free</p>
-        <p>Already using Slack? <a href="">Sign in</a></p>
-        <button type="button" name="button">GET STARTED</button>
+      
+      </div>
+      
+      <div class="tryforfree">
+        <p class="tryfor-freetxt">Try it for free</p>
+        <p class="alreadyusingslack">Already using Slack? <a href="">Sign in</a></p>
+        <button class="btngetstarted" type="button" name="button">GET STARTED</button>
       </div>
     </main>
     <footer>
-      <div>
+      <div class="footer">
         <img src="./images/iso-slack.png" alt="" />
         <ul>
-          <li>COMPANY</li>
+          <li><b>COMPANY</b></li>
           <li>About Us</li>
           <li>Careers</li>
           <li>Blog</li>
@@ -71,7 +83,7 @@
           <li>Brand Guidelines</li>
         </ul>
         <ul>
-          <li>PRODUCT</li>
+          <li><b>PRODUCT</b></li>
           <li>Why Slack?</li>
           <li>Enterprise</li>
           <li>Customer Stories</li>
@@ -79,7 +91,7 @@
           <li>Security</li>
         </ul>
         <ul>
-          <li>RESOURCES</li>
+          <li><b>RESOURCES</b></li>
           <li>Download</li>
           <li>Help Center</li>
           <li>Guides</li>
@@ -88,14 +100,15 @@
           <li>API</li>
         </ul>
         <ul>
-          <li>EXTRAS</li>
+          <li><b>EXTRAS</b></li>
           <li>Podcast</li>
           <li>Slack Shop</li>
           <li>Slack at Work</li>
           <li>Slack Fund</li>
         </ul>
       </div>
-      <div>
+
+      <div class="status">
         <ul>
           <li>Status</li>
           <li>Privacy & Terms</li>
@@ -103,7 +116,7 @@
         </ul>
         <div>
           <img src="./images/us-flag.png" alt="" />
-          <span>English (US)</span>
+          <span class="ending">English (US)</span>
           <i class="fas fa-chevron-down"></i>
           <i class="fab fa-twitter"></i>
           <i class="fab fa-facebook-f"></i>
